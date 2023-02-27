@@ -26,7 +26,7 @@ void readRegmark(char *regmark);  //这里写函数声明
 #endif
 ```
 
-给链接器提示这个函数是C语言的，别TM找错了。
+给链接器提示这个函数是C语言的。
 
 4、http://blog.csdn.net/jtop0/article/details/5779782。模板声明和实现要放在同一文件夹中。
 
@@ -41,3 +41,5 @@ void readRegmark(char *regmark);  //这里写函数声明
 友元函数不存在类外实现,因为不是类的成员方法,所以不用加作用域
 
 8、貌似还有不尽之处。http://www.douban.com/note/65638800/。
+
+## 2.
